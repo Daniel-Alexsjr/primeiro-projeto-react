@@ -1,38 +1,36 @@
+/* Define o estilo para o corpo da aplicação */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0a0a23;  /* Azul escuro */
+}
+
+/* Estilos para o componente App */
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: center;  /* Centraliza o conteúdo horizontalmente */
+  align-items: center;  /* Centraliza o conteúdo verticalmente */
+  height: 100vh;  /* Faz o App ocupar toda a altura da janela */
+  background-color: #0a0a23;  /* Azul escuro */
 }
 
-.App-link {
-  color: #61dafb;
+/* Estilos para o painel central */
+.central-panel {
+  background-color: white;  /* Painel branco */
+  padding: 40px;
+  border-radius: 10px;  /* Cantos arredondados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  /* Sombra suave */
+  text-align: center;
+  max-width: 600px;
+  width: 100%;
+  height: 80vh;  /* Faz o App ocupar toda a altura da janela */
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {
+  color: #333;  /* Cor do texto no painel */
+}
+
+p {
+  color: #666;
 }
